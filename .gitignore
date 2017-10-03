@@ -1,0 +1,8 @@
+BUILD/*
+BUILDROOT/*
+RPMS/*
+SPECS/*
+SRPMS/*
+*.rpm
+vo-aacenc*.tar.gz
+.directory

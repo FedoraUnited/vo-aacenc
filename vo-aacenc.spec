@@ -1,6 +1,6 @@
 Name:		vo-aacenc
-Version:	0.1.2
-Release:	3%{?dist}
+Version:	0.1.3
+Release:	1%{?dist}
 Summary:	VisualOn AAC encoder library
 License:	ASL 2.0
 Group:		Applications/Multimedia
@@ -55,6 +55,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+
+* Mon Oct 02 2017 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1.3-1
+- Updated to 0.1.3-1
 
 * Fri Jul 08 2016 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1.2-3
 - Massive rebuild
