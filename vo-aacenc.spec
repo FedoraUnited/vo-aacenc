@@ -46,7 +46,7 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 %files 
 %{_libdir}/libvo-aacenc.so.0
-%{_libdir}/libvo-aacenc.so.0.0.3
+%{_libdir}/libvo-aacenc.so.0.0.4
 
 %files devel
 %{_includedir}/%{name}
@@ -65,6 +65,6 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 * Thu Apr 28 2016 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1.2-2
 - Rebuilt 
 
-* Fri May 17 2012 David Vasquez <davidjeremias82 AT gmail DOT com> - 0.1.2-1
+* Thu May 17 2012 David Vasquez <davidjeremias82 AT gmail DOT com> - 0.1.2-1
 - Initial build
 
